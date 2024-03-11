@@ -10,7 +10,7 @@ const sora = Sora({
 });
 
 
-const Layout = () => {
+const Layout = ({children}) => {
   return <div>Layout</div>;
 };
 
