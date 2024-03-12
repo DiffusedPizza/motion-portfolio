@@ -11,7 +11,9 @@ const sora = Sora({
 
 
 const Layout = ({children}) => {
-  return <div>Layout</div>;
+  return <div>
+    <Nav />
+  </div>;
 };
 
 export default Layout;
