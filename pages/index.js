@@ -26,6 +26,19 @@ const Home = () => {
         <p className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos sint nihil ratione sunt laborum ipsa esse non. Accusamus illum, dolorum animi, officiis, consequatur placeat molestiae quaerat maxime incidunt magnam nobis.
         </p>
+        {/* btn */}
+        <div className="flex justify-center xl:hidden relative">
+          <ProjectsBtn />
+        </div>
+        <motion.div 
+          variants={fadeIn('down', 0.4)}
+          initial='hidden'
+          animate='show'
+          exit='hidden'
+          className="hidden xl:flex"
+          >
+          <ProjectsBtn />
+        </motion.div>
       </div>
     </div>
     {/* image */}
